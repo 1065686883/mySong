@@ -11,6 +11,7 @@
 </template>
 
 <script>
+import handle from '../util/handle' // 必须用相对路径，不能用@
 export default {
     data() {
         return {
