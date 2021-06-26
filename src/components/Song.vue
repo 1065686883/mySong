@@ -7,7 +7,6 @@
             @click="play"
             :style="{ backgroundImage: btnBgi }"
         ></button>
-        <!-- <button class="pauseBtn" @click="pause">暂停播放</button> -->
     </div>
 </template>
 
@@ -43,9 +42,9 @@ export default {
     .playBtn {
         width: 50px;
         height: 50px;
-        // background-image: url('/static/assets/play.png');
         background-size: 50px 50px;
         border: none;
+        outline: none;
     }
 }
 </style>
